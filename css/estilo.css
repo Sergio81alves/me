@@ -1,0 +1,18 @@
+body {
+margin: 0;
+padding: 0;
+}
+#container {
+    background: black;
+    margin: 0 auto;
+    min-width: 720px;
+    max-width: 1280px;
+}
+.marcador{
+    background: rgba(102, 195, 195, 0.333);
+    border: 1px solid rgba(14, 240, 14, 0.835);
+}
+.marcador-container{
+    background: rgba(234, 253, 247, 0.267);
+    border: 1px solid rgb(238, 23, 23);
+}
