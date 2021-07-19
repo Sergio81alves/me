@@ -1,18 +1,68 @@
-body {
+body, html {
 margin: 0;
 padding: 0;
+font: 16px "Lato", sans-serif;
+
 }
 #container {
-    background: black;
+    background: rgb(0, 0, 0);
     margin: 0 auto;
-    min-width: 720px;
+    min-width: 580px;
     max-width: 1280px;
 }
 .marcador{
-    background: rgba(102, 195, 195, 0.333);
-    border: 1px solid rgba(14, 240, 14, 0.835);
+    
+    
 }
 .marcador-container{
     background: rgba(234, 253, 247, 0.267);
     border: 1px solid rgb(238, 23, 23);
+}
+@keyframes animacao{
+    from{
+        background:url(../imagens/anim.jpg);
+    }
+    to{
+        background:url(../imagens/anim2.jpg);
+    }
+}
+@-moz-keyframes animacao{
+    from{
+        background:url(../imagens/anim.jpg);
+    }
+    to{
+        background:url(../imagens/anim2.jpg);
+    }
+}
+header {
+    animation-name:animacao;
+    animation-duration: 5s;
+}
+.conteudo{
+    color: #777;
+    background-color: white ;
+    text-align: justify;
+    padding: 50px 80px;
+}
+/*section{
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+    border: 1px solid green;
+}*/
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+/*Efeito parallax */
+.caixa1, .caixa2 {
+    border: 1px solid red;
+    height: 100%;
+}
+.caixa1{
+    background-image: url(../imagens/caixa1.jpg);
+}
+.caixa2{
+    background-image: url(../imagens/caixa2.jpg);
 }
