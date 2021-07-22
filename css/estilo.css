@@ -16,7 +16,7 @@ font: 16px "Lato", sans-serif;
 }
 .marcador-container{
     background: rgba(234, 253, 247, 0.267);
-    border: 1px solid rgb(238, 23, 23);
+    border: 1px solid rgb(199, 8, 8);
 }
 @keyframes animacao{
     from{
