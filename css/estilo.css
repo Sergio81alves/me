@@ -4,34 +4,37 @@ padding: 0;
 font: 16px "Lato", sans-serif;
 
 }
+header h1 {
+   text-indent: -900px;
+}
+header p{
+    text-align: center;
+}
 #container {
     background: rgb(0, 0, 0);
     margin: 0 auto;
     min-width: 580px;
     max-width: 1280px;
-}
-.marcador{
-    
-    
+    float: right;
 }
 .marcador-container{
     background: rgba(234, 253, 247, 0.267);
-    border: 1px solid rgb(199, 8, 8);
+   
 }
 @keyframes animacao{
     from{
-        background:url(../imagens/anim.jpg);
+        background:url(../imagens/capa-Sergio-Alves.png);
     }
     to{
-        background:url(../imagens/anim2.jpg);
+        background:url(../imagens/favicon.ico) ;
     }
 }
 @-moz-keyframes animacao{
     from{
-        background:url(../imagens/anim.jpg);
+        background:url(../imagens/capa-Sergio-Alves.png);
     }
     to{
-        background:url(../imagens/anim2.jpg);
+        background:url(../imagens/favicon.ico) ;
     }
 }
 header {
@@ -44,6 +47,23 @@ header {
     text-align: justify;
     padding: 50px 80px;
 }
+.btn {
+    margin: 1px 20px;
+}
+#left {
+    width: 300px;
+    background: #777;
+    
+    float: right;
+}
+
+
+#lateral {
+    
+    background: orange;
+    float: left;
+    border-bottom: 2px dotted #ccc;
+}
 /*section{
     font: 16px "Lato", sans-serif;
     color: #777;
@@ -55,14 +75,25 @@ h3 {
     color: #111;
     text-align: center;
 }
-/*Efeito parallax */
+h4 {
+    padding:0 50% 0 50%;
+}
+footer{
+    clear: both;
+    border-top: 2px solid;
+}
+footer p {
+    background: rgb(111, 230, 202);
+    text-align: center;
+}
+/*Efeito parallax  no eletri*/
 .caixa1, .caixa2 {
-    border: 1px solid red;
+    
     height: 100%;
 }
 .caixa1{
-    background-image: url(../imagens/caixa1.jpg);
+    background-image: url(../imagens/IMG_20210623_171158.jpg);
 }
 .caixa2{
-    background-image: url(../imagens/caixa2.jpg);
+    background-image: url(../imagens/IMG_20210706_170605.jpg);
 }
