@@ -42,7 +42,7 @@ header {
     animation-duration: 5s;
 }
 .conteudo{
-    color: #777;
+    color: rgb(206, 221, 0);
     background-color: white ;
     text-align: justify;
     padding: 50px 80px;
@@ -51,17 +51,38 @@ header {
     margin: 1px 20px;
 }
 #left {
-    width: 300px;
-    background: #777;
-    
-    float: right;
+    width: 280px;
+    background: rgb(236, 240, 23);
+    float: left;
+}
+#left h4 {
+    text-indent: 20px;
+}
+ul {
+    margin: 40px;
+    padding: 0;
+    list-style-type: none;
+}
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 40px;
+    background: url(../imagens/menu.png) no-repeat left bottom;
+ 
+}
+ul a:hover {
+    background-position: right bottom;
+    color: aliceblue;
 }
 
-
 #lateral {
-    
-    background: orange;
-    float: left;
+    width: 220px;
+    background: #777;
+    float: right;
     border-bottom: 2px dotted #ccc;
 }
 /*section{
