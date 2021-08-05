@@ -51,13 +51,11 @@ header {
     margin: 1px 20px;
 }
 #left {
-    width: 280px;
-    background: #777;
+    width: 270px;
+    background: #777777;
     float: left;
 }
-#left h4 {
-    text-indent: 20px;
-}
+
 ul {
     margin: 40px;
     padding: 0;
