@@ -47,10 +47,16 @@ header {
 }
 #curriculo{
     background: #ccc;
+    margin-top: 2px;
+    
 }
-#curriculo h1,h6{
-    background: rgb(199, 49, 49);
-    display: inline;
+#curriculo h1{
+    background: rgb(133, 126, 126);
+    display: inline-block;
+    
+}
+#curriculo p{
+    font-size: 25px;
 }
 #hobs {
     width: 270px;
@@ -83,12 +89,7 @@ ul a:hover {
     background: #777;
     border-bottom: 2px dotted #ccc;
 }
-/*section{
-    font: 16px "Lato", sans-serif;
-    color: #777;
-    height: 100%;
-    border: 1px solid green;
-}*/
+
 h3 {
     text-transform: uppercase;
     color: #111;
