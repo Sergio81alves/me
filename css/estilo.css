@@ -13,9 +13,7 @@ header p{
 #container {
     background: rgb(0, 0, 0);
     margin: 0 auto;
-    min-width: 580px;
-    max-width: 1280px;
-    float: right;
+    float: left;
 }
 .marcador-container{
     background: rgba(234, 253, 247, 0.267);
@@ -47,17 +45,21 @@ header {
     text-align: justify;
     padding: 50px 80px;
 }
-
-#left {
+#curriculo{
+    background: #ccc;
+}
+#curriculo h1,h6{
+    background: rgb(199, 49, 49);
+    display: inline;
+}
+#hobs {
     width: 270px;
     background: #777777;
-    float: left;
     border-bottom: 2px dotted #ccc;
 }
 
 ul {
-    margin: 40px;
-    padding: 0;
+    
     list-style-type: none;
 }
 ul a {
@@ -79,7 +81,6 @@ ul a:hover {
 #lateral {
     width: 270px;
     background: #777;
-    float: right;
     border-bottom: 2px dotted #ccc;
 }
 /*section{
@@ -114,4 +115,7 @@ footer p {
 }
 .caixa2{
     background-image: url(../imagens/IMG_20210706_170605.jpg);
+}
+footer{
+    clear: both;
 }
