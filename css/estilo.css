@@ -58,9 +58,10 @@ header {
 #curriculo p{
     font-size: 25px;
 }
-#hobs {
+.hobs {
     width: 270px;
     background: #777777;
+    margin-top: 3px;
     border-bottom: 2px dotted #ccc;
 }
 
@@ -82,13 +83,9 @@ ul a {
 ul a:hover {
     background-position: right bottom;
     color: aliceblue;
+    text-transform: uppercase;
 }
 
-#lateral {
-    width: 270px;
-    background: #777;
-    border-bottom: 2px dotted #ccc;
-}
 
 h3 {
     text-transform: uppercase;
