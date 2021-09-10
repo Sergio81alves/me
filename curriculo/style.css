@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#container {
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    float: left;
+}
+
+h1 {
+    display:table-caption;
+}
+/*lateral*/
+aside{
+    margin-top: 20px;
+    width: 310px;
+    
+}
+aside img{
+    width:300px;
+    border: 10px solid rgba(233, 193, 18, 0.52);
+    border-radius: 300px;
+}
+aside p{
+    text-align: center;
+}
+
+#curriculo{
+    background: #ccc;
+    margin-top: 2px;
+   
+}
+#curriculo h1{
+    
+    display: inline-block;
+    
+}
+#curriculo p{
+    font-size: 25px;
+}
