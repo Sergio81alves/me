@@ -15,11 +15,15 @@ h1 {
 aside{
     margin-top: 20px;
     width: 310px;
+    padding: 20px;
     
 }
 aside img{
-    width:300px;
-    border: 10px solid rgba(233, 193, 18, 0.52);
+    width:180px;
+    height: 180px;
+   
+    border: 10px solid rgb(28, 167, 148);
+    box-shadow:0 0 5px 5px rgb(81, 246, 210) ;
     border-radius: 300px;
 }
 aside p{
