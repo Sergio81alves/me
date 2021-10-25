@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
 #container {
     background: rgb(255, 255, 255);
@@ -16,6 +17,7 @@ aside{
     margin-top: 20px;
     width: 310px;
     padding: 20px;
+    background: black;
     
 }
 aside img{
@@ -42,4 +44,7 @@ aside p{
 }
 #curriculo p{
     font-size: 25px;
+}
+section {
+    margin: 20px;
 }
