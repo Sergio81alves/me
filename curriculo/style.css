@@ -17,7 +17,8 @@ aside{
     margin-top: 20px;
     width: 310px;
     padding: 20px;
-    background: black;
+    background: rgba(238, 190, 86, 0.699);
+    
     
 }
 aside img{
@@ -46,5 +47,7 @@ aside p{
     font-size: 25px;
 }
 section {
+    
     margin: 20px;
+    background: #fff;
 }
