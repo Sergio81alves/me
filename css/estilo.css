@@ -1,8 +1,8 @@
-body, html {
+* {
 margin: 0;
 padding: 0;
 font: 16px "Lato", sans-serif;
-
+background: rgb(216, 214, 214);
 }
 header h1 {
    text-indent: -900px;
@@ -39,68 +39,41 @@ header {
     animation-name:animacao;
     animation-duration: 5s;
 }
-.conteudo{
-    color: rgb(206, 221, 0);
-    background-color: white ;
-    text-align: justify;
-    padding: 50px 80px;
-}
+
 button{
-    
     box-shadow: 5px 10px 25px rgb(231, 22, 22);
-}
-#curriculo{
-    background: rgb(238, 235, 235);
-    margin-top: 2px;
-    padding: 5px;
-    
-}
-#curriculo h1{
-    background: rgb(214, 211, 211);
-    display: inline-block;
-    
-}
-#curriculo p{
-    font-size: 25px;
-}
-.hobs {
-    width: 270px;
-    background: #d48f0d;
-    margin-top: 3px;
-    border-bottom: 2px dotted #ccc;
-    box-shadow:0 0 5px 5px rgb(248, 242, 242) ;
-}
-
-ul {
-    
-    list-style-type: none;
-}
-ul a {
-    width: 200px;
-    height: 40px;
-    display: block;
-    color: #000;
-    text-decoration: none;
-    text-indent: 30px;
-    line-height: 40px;
-    background: url(../imagens/menu.png) no-repeat left bottom;
- 
-}
-ul a:hover {
-    background-position: right bottom;
-    color: aliceblue;
-    text-transform: uppercase;
+   
 }
 
 
-h3 {
-    text-transform: uppercase;
-    color: #111;
-    text-align: center;
+.api {
+    border: 1px solid red;
+    width: 250px;
+    height: 250px;
+    display:inline-block;
 }
-h4 {
-    padding:0 50% 0 50%;
+#velha{
+    background: rgb(209, 196, 205) url(../imagens/velha.jpg )  no-repeat ;
 }
+#bateria{
+    background: rgb(209, 196, 205) url(../imagens/bateria.jpg )  no-repeat ;
+}
+#timao{
+    background: rgb(209, 196, 205) url(../imagens/relogio.jpg )  no-repeat ;
+}
+#clima{
+    background: rgb(209, 196, 205) url(../imagens/clima.jpg )  no-repeat ;
+}
+#desenho{
+    background: rgb(209, 196, 205) url(../imagens/desenho.jpg )  no-repeat ;
+}
+#quiz{
+    background: rgb(209, 196, 205) url(../imagens/perguntas.jpg )  no-repeat ;
+}
+
+
+
+
 footer{
     clear: both;
     border-top: 2px solid;
