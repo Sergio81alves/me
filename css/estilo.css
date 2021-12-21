@@ -41,13 +41,14 @@ header {
 }
 
 button{
-    box-shadow: 5px 10px 25px rgb(231, 22, 22);
+    box-shadow: 5px 1px 25px rgb(231, 22, 22);
    
 }
 
 
 .api {
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
     width: 250px;
     height: 250px;
     display:inline-block;
