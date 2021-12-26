@@ -2,15 +2,15 @@
 var altura = 0
 var largura = 0
 var vidas = 1
-var tempo = 15
+var tempo = 20
 
-var criaMosquitoTempo = 1500
+var criaMosquitoTempo = 1750
 
 var nivel = window.location.search
 nivel = nivel.replace('?','')
 
 if(nivel === 'normal'){
-    criaMosquitoTempo = 1500
+    criaMosquitoTempo = 1750
 }else if(nivel === 'dificil'){
     criaMosquitoTempo = 1000
 }else if(nivel === 'melhordomundo'){
