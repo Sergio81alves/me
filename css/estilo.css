@@ -13,7 +13,7 @@ header p{
 #container {
     background: rgb(216, 214, 214);
     margin: 0 auto;
-    float: left;
+    text-align: center;
 }
 .marcador-container{
     background: rgba(234, 253, 247, 0.267);
