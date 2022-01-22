@@ -48,16 +48,22 @@ button{
 
 .api {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: larger;
+    font-size: xx-large;
+    font-style: italic;
+    text-transform: uppercase;
+    
     width: 250px;
     height: 250px;
     display:inline-block;
+    
+
 }
 #velha{
     background: rgb(209, 196, 205) url(../imagens/velha.jpg )  no-repeat ;
 }
 #bateria{
     background: rgb(209, 196, 205) url(../imagens/bateria.jpg )  no-repeat ;
+    color: aliceblue;
 }
 #timao{
     background: rgb(209, 196, 205) url(../imagens/relogio.jpg )  no-repeat ;
@@ -72,9 +78,13 @@ button{
     background: rgb(209, 196, 205) url(../imagens/perguntas.jpg )  no-repeat ;
 }
 #mata{
-    background: rgb(209, 196, 205) url(../imagens/bg_min.jpg )  no-repeat ;
+    background: rgba(209, 196, 205, 0.1) url(../imagens/bg_min.jpg )  no-repeat ;
+    
 }
+ul a {
+    color: black;
 
+}
 
 
 
