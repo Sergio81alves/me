@@ -4,9 +4,7 @@ padding: 0;
 font: 16px "Lato", sans-serif;
 background: rgb(216, 214, 214);
 }
-header h1 {
-   text-indent: -900px;
-}
+
 header p{
     text-align: center;
 }
@@ -85,6 +83,27 @@ ul a {
     color: black;
 
 }
+.carousel-item img{
+    width: 700px;
+    height: 420px;    
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: slategray;
+    background: rgba(151, 148, 148, 0.3);
+    text-align: center;
+}
+section h3 {
+    background: transparent;
+    color: aqua;
+}
 
 
 
@@ -92,10 +111,22 @@ footer{
     clear: both;
     border-top: 2px solid;
 }
-footer p {
+footer {
     background: rgb(111, 230, 202);
     text-align: center;
     font-size: 24px;
+}
+footer span{
+    font-size: 24px;
+}
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-bottom: 3px;
+    background: transparent;
 }
 /*Efeito parallax  no eletri*/
 .caixa1, .caixa2 {

@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+}
+#container {
+    width: 750px;
+    margin: 0 auto;
+    
+}
+#topo {
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+   /* border:  1px solid red;*/
+}
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+/*Barra de navegação*/
+a:link, a:visited {
+    color: #9c0832;
+    padding: 2px;
+}
+a:hover {
+    color: #e50040;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#topo ul {
+    margin-top: 30px;
+    background: #ee0606;
+    float: left;
+}
+#topo ul li {
+    float: left;
+
+}
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: blanchedalmond;
+    background: url(imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeiro a {
+    background: none;
+}
+#topo ul a:hover {
+  color: #69001d;
+}
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos
+ {
+    color: beige;
+    background: #be0303;
+    cursor:text ;
+}
+/*configurar layout de três colunas*/
+#conteudo {
+    margin-top: 60px;
+    background: blue;
+
+}
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+#uma-colunas #primario {
+    width: 500px;
+    float: center;
+    margin: 0 0 20px 195px;
+}
+#segundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+/*caixa*/
+.caixa { 
+    margin: 10px 0;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url(imagens/fundo-caixa.png);
+}
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo {
+    background: rgb(255, 249, 249);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*menu lateral*/
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color:#000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+    background: #b6d9ff;
+}
+#lateral ul a:hover {
+    
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+/*formatando formularios*/
+label {
+    display: block;
+    cursor: pointer;
+}
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid#870529;
+    
+}
+/*Formatando imagens*/
+img.imagem-principal {
+    border: 2px solid #7c7373;
+}
+/*Formatando cabecalho*/
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+    background: #de003e;
+    color: #000;
+}
+/*Formatando lista de notícias*/
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista-noticias li a {
+    text-decoration: none;
+}
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+#lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+/*rodape*/
+#crodape {
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: rgb(125, 230, 230);
+    text-align: center;
+}
