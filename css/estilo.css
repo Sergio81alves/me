@@ -69,26 +69,46 @@ button{
 }
 #velha{
     background: rgb(209, 196, 205) url(../imagens/velha.jpg )  no-repeat ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #bateria{
     background: rgb(209, 196, 205) url(../imagens/bateria.jpg )  no-repeat ;
     color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #timao{
     background: rgb(209, 196, 205) url(../imagens/relogio.jpg )  no-repeat ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #clima{
     background: rgb(209, 196, 205) url(../imagens/clima.jpg )  no-repeat ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #desenho{
     background: rgb(209, 196, 205) url(../imagens/desenho.jpg )  no-repeat ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #quiz{
     background: rgb(209, 196, 205) url(../imagens/perguntas.jpg )  no-repeat ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 #mata{
     background: rgba(209, 196, 205, 0.1) url(../imagens/bg_min.jpg )  no-repeat ;
-    
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 ul a {
     color: black;
