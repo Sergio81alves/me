@@ -77,6 +77,13 @@ button{
     margin-bottom: 5px;
     margin-top: 5px;
 }
+#radius{
+    background: rgb(209, 196, 205) url(../imagens/radius.png )  no-repeat ;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 #bateria{
     background: rgb(209, 196, 205) url(../imagens/bateria.jpg )  no-repeat ;
     color: aliceblue;
