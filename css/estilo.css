@@ -55,7 +55,13 @@ button{
     box-shadow: 5px 1px 25px rgb(231, 22, 22);
    
 }
-
+.conteudos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
 
 .api {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -99,6 +105,12 @@ button{
 }
 #clima{
     background: rgb(209, 196, 205) url(../imagens/clima.jpg )  no-repeat ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#decimal{
+    background: rgb(209, 196, 205) url(../imagens/decimal.jpg )  no-repeat ;
     border-radius: 5px;
     margin-bottom: 5px;
     margin-top: 5px;
