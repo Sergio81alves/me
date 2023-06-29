@@ -147,6 +147,7 @@ ul{
 .carousel-item img{
     width: 700px;
     height: 420px;    
+    border-radius: 5px;
 }
 
 .carousel-caption {
